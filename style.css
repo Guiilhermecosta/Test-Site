@@ -33,6 +33,8 @@ body {
         border-radius: 5px;
         color: white;
         padding: 11px;
+        border: 4px solid;
+            border-image: linear-gradient(135deg,#FF0000 0%,#FF00A8 100%) 1;
     }
     .section2 {
         display: flex;
