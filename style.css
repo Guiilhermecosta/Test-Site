@@ -66,8 +66,17 @@ body {
         background-color: black;
         padding: 30px;
         color: white;
+        text-align: center;
     }
-    h5:hover{
+    h4:hover{
         color: aqua;
         cursor: pointer;
+    }
+    footer > div {
+        display: none;
+    }
+    footer:hover > div{
+        display: block;
+        text-align: center;
+        color: aqua;
     }
